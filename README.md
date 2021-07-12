@@ -54,5 +54,5 @@
 
     - Video : *https://drive.google.com/file/d/11vMXub2Rm37xmwtto7-aQbnbDLPfyX9G/view?usp=sharing*
 
-5. Source code:
+5. Source code và bài báo cáo:
     > https://github.com/anhocva214/Bai-tap-lon-LTHDT-2020-2021
