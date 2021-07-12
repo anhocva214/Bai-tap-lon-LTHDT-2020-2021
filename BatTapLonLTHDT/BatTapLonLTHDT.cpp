@@ -232,6 +232,7 @@ void main()
 {
 
 	while (1 == 1) {
+
 		string Input;
 		cout << "\nNhap bieu thuc trung to:  ";
 		getline(cin, Input);
@@ -246,6 +247,7 @@ void main()
 
 		system("pause");
 		system("cls");
+		
 	}
 
 
