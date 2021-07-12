@@ -7,7 +7,7 @@
 using namespace std;
 
 
-void MoveString(string x, vector<string>& M)
+void ScanInput(string x, vector<string>& M)
 {
 	cout << "  >>> ";
 	for (int i = 0; i < x.length(); i++)
@@ -74,7 +74,7 @@ void MoveString(string x, vector<string>& M)
 	}
 }
 
-int prioritize(string x)
+int Prioritize(string x)
 {
 	if (x == "sqrt" || x == "sin" || x == "cos")
 		return 3;
@@ -88,7 +88,7 @@ int prioritize(string x)
 	return -1;
 }
 
-int classify(string x)
+int Classify(string x)
 {
 	if (x == "sqrt" || x == "exp" || x == "sin" || x == "cos" || x == "cosin" || x == "log")
 		return 3;
@@ -98,7 +98,7 @@ int classify(string x)
 		return 1;
 }
 
-string calValue(string b, string x, string a)
+string CalValue(string b, string x, string a)
 {
 	float fResult = 0;
 
@@ -136,7 +136,7 @@ string calValue(string b, string x, string a)
 	return strResult;
 }
 
-float calculator(vector<string> M)
+float Calculator(vector<string> M)
 {
 	float fResult = 0;
 
@@ -147,12 +147,12 @@ float calculator(vector<string> M)
 
 	for (int i = 0; i < iLength; i++)
 	{
-		if (classify(M[i]) == 1 && M[i] != "(" && M[i] != ")")
+		if (Classify(M[i]) == 1 && M[i] != "(" && M[i] != ")")
 			Sh->Push(M[i]);
-		if (classify(M[i]) == 2)
+		if (Classify(M[i]) == 2)
 		{
 			while (!St->IsEmpty() &&
-				(prioritize(M[i]) <= prioritize(St->GetTop()->Info)))
+				(Prioritize(M[i]) <= Prioritize(St->GetTop()->Info)))
 			{
 				string a = "";
 				Sh->Pop(a);
@@ -160,21 +160,21 @@ float calculator(vector<string> M)
 				St->Pop(x);
 				string b = "";
 				Sh->Pop(b);
-				Sh->Push(calValue(b, x, a));
+				Sh->Push(CalValue(b, x, a));
 			}
 			St->Push(M[i]);
 		}
-		if (classify(M[i]) == 3)
+		if (Classify(M[i]) == 3)
 		{
 			while (!St->IsEmpty() &&
-				(prioritize(M[i]) < prioritize(St->GetTop()->Info)))
+				(Prioritize(M[i]) < Prioritize(St->GetTop()->Info)))
 			{
 				string a = "";
 				Sh->Pop(a);
 				string x = "";
 				St->Pop(x);
 				string b = "";
-				Sh->Push(calValue(b, x, a));
+				Sh->Push(CalValue(b, x, a));
 			}
 			St->Push(M[i]);
 		}
@@ -191,7 +191,7 @@ float calculator(vector<string> M)
 				St->Pop(x);
 				string b = "";
 				Sh->Pop(b);
-				Sh->Push(calValue(b, x, a));
+				Sh->Push(CalValue(b, x, a));
 			}
 			string c = "";
 			St->Pop(c);
@@ -205,7 +205,7 @@ float calculator(vector<string> M)
 				string x = "";
 				St->Pop(x);
 				string b = "";
-				Sh->Push(calValue(b, x, a));
+				Sh->Push(CalValue(b, x, a));
 			}
 		}
 	}
@@ -218,7 +218,7 @@ float calculator(vector<string> M)
 		St->Pop(x);
 		string b = "";
 		Sh->Pop(b);
-		Sh->Push(calValue(b, x, a));
+		Sh->Push(CalValue(b, x, a));
 	}
 
 
@@ -240,8 +240,8 @@ void main()
 		cout << "\n";
 
 		vector<string> M;
-		MoveString(Input, M);
-		cout << " = " << calculator(M) << endl;
+		ScanInput(Input, M);
+		cout << " = " << Calculator(M) << endl;
 		cout << endl;
 
 		system("pause");
