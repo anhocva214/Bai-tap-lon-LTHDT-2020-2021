@@ -26,7 +26,7 @@
     - Hàm `Prioritize` đẻ kiểm tra mức độ ưu tiên của *toán tử*
     - Hàm `Classify` để phẩn loại *toán tử* và *số hạng*
     - Hàm `CalValue` để tính toán giá trị của phép toán
-    - Hàm `Calculator` để bắt đàu thực hiện thuật toán
+    - Hàm `Calculator` để bắt đầu thực hiện thuật toán
 
 3. Demo thuật toán:
 
@@ -50,7 +50,7 @@
     ```
 4. Kiểm thử chương trình:
 
-    ![Kết quả thực nghiệm](https://octodex.github.com/images/yaktocat.png)
+    ![Kết quả thực nghiệm](https://github.com/anhocva214/Bai-tap-lon-LTHDT-2020-2021/blob/master/img/demo-1.png)
 
     - Video : *https://drive.google.com/file/d/11vMXub2Rm37xmwtto7-aQbnbDLPfyX9G/view?usp=sharing*
 
