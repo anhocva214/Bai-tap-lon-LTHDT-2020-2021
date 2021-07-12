@@ -1,0 +1,21 @@
+﻿  BatTapLonLTHDT.cpp
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(17,10): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(19,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(71,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(106,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(108,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(110,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(112,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(114,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(120,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(124,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(127,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(129,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(131,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(133,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(227,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\HELLO\source\repos\BatTapLonLTHDT\BatTapLonLTHDT\BatTapLonLTHDT.cpp(232,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Stack.cpp
+  Generating Code...
+  BatTapLonLTHDT.vcxproj -> C:\Users\HELLO\source\repos\BatTapLonLTHDT\Debug\BatTapLonLTHDT.exe
