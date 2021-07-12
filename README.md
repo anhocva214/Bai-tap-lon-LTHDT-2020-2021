@@ -1,9 +1,9 @@
 # Bài báo cáo bài tập lớn
 ### Môn lập trình hướng đối tượng
 
-| Họ và tên  | MSSV     |  Giảng viên           |
-| :---       | :----:   |  :---:                |
-| HỒ AN      | 19110251 |THS. NGUYỄN NGỌC LONG  |
+| Họ và tên     | MSSV     |  Giảng viên                |
+| :---          | :----:   |  :---:                     |
+| HỒ AN         | 19110251 |THS. NGUYỄN NGỌC LONG       |
 
 ### Đề tài:
 >Xây dựng lớp biểu diễn khái niệm Stack. Sử dụng Stack kể trên, viết một ứng dụng cho phép giải quyết bài tính giá trị một biểu thức trung tố (không dùng đệ qui). Biểu thức trung tố có thể bao gồm cả phép gọi hàm các hàm thông dụng như sqrt, exp, log, sin, cos…
@@ -50,7 +50,7 @@
     ```
 4. Kiểm thử chương trình:
 
-    ![Kết quả thực nghiệm](https://github.com/anhocva214/Bai-tap-lon-LTHDT-2020-2021/blob/master/img/demo-1.png)
+    ![Kết quả thực nghiệm](./img/demo-1.png)
 
     - Video : *https://drive.google.com/file/d/11vMXub2Rm37xmwtto7-aQbnbDLPfyX9G/view?usp=sharing*
 
